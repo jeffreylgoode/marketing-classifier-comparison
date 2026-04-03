@@ -18,20 +18,25 @@ Answering this allows us to predict which customers are most likely to say “Ye
 
 ## Model Performance
 Initial model comparison:
+
 ![Model Comparison](images/first_model_comparison.png)
 
 After hyperparameter tuning:
+
 ![Model Comparison](images/tuned_model_comparison.png)
 
 ## Reduced Feature Set
 To simplify the marketing campaign and improve interpretability, a reduced feature set was selected:
+
 ![Model Comparison](images/reduced_features_summary.png)
 
 Logistic Regression and Decision Tree models were retrained using these features:
+
 ![Model Comparison](images/reduced_feature_tuned.png)
 
 Both models outperformed the majority baseline (No = 88.7%).
 Logistic Regression coefficients for the reduced model:
+
 ![Model Comparison](images/lr_feature_analysis.png)
 
 
