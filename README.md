@@ -16,14 +16,14 @@ The secondary goal is to answer the business question:
 
 Answering this allows us to predict which customers are most likely to say “Yes” to a term‑deposit subscription.
 
-# Model Performance
+## Model Performance
 Initial model comparison:
 ![Model Comparison](images/first_model_comparison.png)
 
 After hyperparameter tuning:
 ![Model Comparison](images/tuned_model_comparison.png)
 
-# Reduced Feature Set
+## Reduced Feature Set
 To simplify the marketing campaign and improve interpretability, a reduced feature set was selected:
 ![Model Comparison](images/reduced_features_summary.png)
 
