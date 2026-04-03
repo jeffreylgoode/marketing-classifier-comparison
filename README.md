@@ -37,7 +37,7 @@ Logistic Regression and Decision Tree models were retrained using these features
 Both models outperformed the majority baseline (No = 88.7%).
 Logistic Regression coefficients for the reduced model:
 
-![Model Comparison](images/lr_feature_analysis.png)
+![Model Comparison](images/LR_feature_analysis.png)
 
 
 ## Repository Structure
