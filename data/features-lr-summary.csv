@@ -1,0 +1,18 @@
+﻿Feature,LR Coef,Meaning
+,Positively impacts the customer saying YES,
+month_mar,'+1.25,March is the strongest positive month for conversions
+duration,'+1.21,Longer calls → higher likelihood of subscription
+cons.price.idx,'+0.94,Higher CPI → customers seek safer returns
+month_aug,'+0.51,August also shows positive seasonality
+euribor3m,'+0.41,Higher interest rates → term deposits more attractive
+job_student,'+0.14,Students show slightly higher interest
+job_retired,'+0.13,Retired customers are more receptive
+,Negatively impacts the customer saying YES,
+emp.var.rate,–2.19,Economic instability strongly reduces likelihood
+month_may,–1.15,May is a poor month for conversions
+month_jun,–0.90,June also underperforms
+month_feb,–0.68,February is weaker than March
+month_apr,–0.63,April also negative
+job_blue-collar,–0.51,Lower likelihood of subscription
+job_self-employed,–0.43,Self‑employed less likely
+job_entrepreneur,–0.40,Entrepreneurs less likely

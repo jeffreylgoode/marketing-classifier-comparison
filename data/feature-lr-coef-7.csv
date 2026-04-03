@@ -1,0 +1,8 @@
+﻿Feature,LR Coef,Meaning
+month_mar,'+1.25,March is the strongest positive month for conversions
+duration,'+1.21,Longer calls → higher likelihood of subscription
+cons.price.idx,'+0.94,Higher CPI → customers seek safer returns
+month_aug,'+0.51,August also shows positive seasonality
+euribor3m,'+0.41,Higher interest rates → term deposits more attractive
+job_student,'+0.14,Students show slightly higher interest
+job_retired,'+0.13,Retired customers are more receptive
