@@ -1,0 +1,11 @@
+﻿Metric,Baseline<br/>(Always Predict “No”),Logistic Regression,KNN (k=5),Decision Tree,SVM (RBF),Commentary (Editable)
+TN,9137,8924,8838,8519,8943,"LR, KNN, and SVM maintain high TN; DT trades TN for more TP."
+FP,0,213,299,618,194,"FP is cheap; DT has the most, SVM the fewest among ML models."
+FN,1160,661,675,551,695,"DT has the lowest FN (best recall), LR close behind."
+TP,0,499,485,609,465,DT finds the most subscribers; LR and KNN also strong.
+Train Time (s),0,0.0918,0.0337,0.1971,4.389,SVM is slowest by far; KNN is fastest; LR is efficient.
+Train Accuracy,0.8873,0.9102,0.9276,1,0.9223,DT perfectly memorizes training data (overfitting).
+Test Accuracy,0.8873,0.9151,0.9054,0.8865,0.9137,LR and SVM lead; DT collapses due to overfitting.
+Precision (Yes),0,0.7008,0.6186,0.4963,0.7056,SVM and LR give the cleanest “Yes” predictions.
+Recall (Yes),0,0.4302,0.4181,0.525,0.4009,DT finds the most subscribers; LR and KNN close behind.
+AUC,0.5,0.9423,0.8734,0.7287,0.9214,LR and SVM show excellent class separation; DT struggles.
