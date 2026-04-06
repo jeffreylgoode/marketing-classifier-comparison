@@ -17,28 +17,17 @@ The secondary goal is to answer the business question:
 Answering this allows us to predict which customers are most likely to say “Yes” to a term‑deposit subscription.
 
 ## Model Performance
-Initial model comparison:
+Here's the summary of model performance (including the baseline model with tuned parameters):
 
-![Model Comparison](images/first_model_comparison.png)
+![Model Comparison](images/all_models_comp_tuned.png)
 
-After hyperparameter tuning:
+## Model Chosen - the Decision Tree
 
-![Model Comparison](images/tuned_model_comparison.png)
+Given the business problem, and the importance of Recall (YES) the Decision Tree model 
+was chosen as the model that best answers the business question.  Accordingly, here's the Decision Tree model 
+derived marketing guide for targeting customers:
 
-## Reduced Feature Set
-To simplify the marketing campaign and improve interpretability, a reduced feature set was selected:
-
-![Model Comparison](images/reduced_features_summary.png)
-
-Logistic Regression and Decision Tree models were retrained using these features:
-
-![Model Comparison](images/reduced_feature_tuned.png)
-
-Both models outperformed the majority baseline (No = 88.7%).
-Logistic Regression coefficients for the reduced model:
-
-![Model Comparison](images/LR_feature_analysis.png)
-
+![Model Comparison](images/marketing_recommendations.png)
 
 ## Repository Structure
 

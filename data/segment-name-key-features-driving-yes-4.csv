@@ -1,0 +1,5 @@
+﻿Segment Name,Key Features Driving “Yes”,Plain‑English Interpretation,Recommended Marketing Action
+Engaged Recent Contacts,num__duration > –0.33; num__pdays ≤ –5.05; num__euribor3m ≤ –1.67; num__age appears in both Yes leaves,"Customer is engaged, remembers the prior contact, and is in a stable financial environment",Follow up immediately; treat as warm leads; use personalized scripts
+"High‑Engagement, Low‑Risk Profiles",num__duration > –0.33; num__cons.conf.idx > –1.33; num__duration > –0.33 after economic split,Customer shows interest and is not in a low‑confidence financial environment,"Emphasize stability, guaranteed returns, and low risk"
+Friday Long‑Duration Responders,num__duration > 2.21; cat__contact_telephone ≤ 0.50; cat__day_of_week_fri > 0.50,Very high engagement combined with Friday timing and mobile reachability,Schedule callbacks on Fridays for warm leads; use senior agents
+Moderate Duration + Recent Contact + Low Campaign Fatigue,num__duration > –0.33; num__pdays ≤ –2.37; num__campaign ≤ 0.34,"Customer is reachable, not fatigued by prior campaigns, and moderately engaged","Use light‑touch, friendly outreach; avoid aggressive scripts"
