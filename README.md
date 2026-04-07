@@ -23,9 +23,14 @@ Here's the summary of model performance (including the baseline model with tuned
 
 ## Model Chosen - the Decision Tree
 
-Given the business problem and the importance of Recall (YES), the Decision Tree model 
-was chosen as the model that best answers the business question.  Accordingly, here's the Decision Tree model 
-derived marketing guide for targeting customers:
+Given the business objective and the priority placed on maximizing Recall for the “Yes” class, 
+the Decision Tree emerged as the model that best answers the business question. 
+Because it identifies the largest share of true subscribers, it provides the 
+strongest foundation for actionable targeting.
+
+Accordingly, the following marketing guide is derived directly from 
+the Decision Tree’s structure and highlights the customer segments 
+most likely to convert.
 
 ![Model Comparison](images/marketing_recommendations.png)
 
