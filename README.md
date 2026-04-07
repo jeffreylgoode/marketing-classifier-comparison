@@ -23,7 +23,7 @@ Here's the summary of model performance (including the baseline model with tuned
 
 ## Model Chosen - the Decision Tree
 
-Given the business problem, and the importance of Recall (YES) the Decision Tree model 
+Given the business problem and the importance of Recall (YES), the Decision Tree model 
 was chosen as the model that best answers the business question.  Accordingly, here's the Decision Tree model 
 derived marketing guide for targeting customers:
 
